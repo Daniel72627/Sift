@@ -13,12 +13,36 @@
     />
   </head>
   <body>
-    <header></header>
-
     <div id="container">
       <nav id="top_nav">
-        <img id="profile_icon" src="circle-user-regular.svg" />
-        <h2>Home</h2>
+        <div class="dropdown">
+          <button id="menu_button">
+            <img id="menu_icon" src="bars-solid.svg" alt="Menu" />
+          </button>
+          <div class="dropdown_menu" id="menu_dropdown">
+            <a href="index.html" class="dropdown_box">Home</a>
+            <a href="my_creations.html" class="dropdown_box">My Creations</a>
+            <a href="settings.html" class="dropdown_box">Settings</a>
+          </div>
+        </div>
+
+        <h1>Sift</h1>
+
+        <div class="dropdown">
+          <button id="profile_button">
+            <img
+              id="profile_icon"
+              src="circle-user-regular.svg"
+              alt="Profile"
+            />
+          </button>
+          <div class="dropdown_menu" id="profile_dropdown">
+            <a href="sign_in.html" class="dropdown_box">Sign In</a>
+            <a href="sign_up.html" class="dropdown_box">Sign Up</a>
+            <button class="dropdown_box" disabled>Log Out</button>
+            <!-- disabled for now -->
+          </div>
+        </div>
       </nav>
 
       <button id="filter_button">
