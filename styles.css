@@ -177,6 +177,8 @@ a {
   justify-content: center;
   align-items: flex-start;
   gap: 20px;
+  overflow-y: scroll;
+  height: 620px;
 }
 
 .box {
