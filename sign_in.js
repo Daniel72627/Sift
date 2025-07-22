@@ -18,6 +18,8 @@ signInForm.addEventListener("submit", function (e) {
     signInPassword === storedUser.password
   ) {
     alert("Login successful!");
+    localStorage.setItem("logged_in_user", storedUser.username);
+    window.location.href = "index.html";
   } else {
     alert("Invalid username or password.");
   }

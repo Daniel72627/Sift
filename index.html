@@ -37,18 +37,23 @@
             />
           </button>
           <div class="dropdown_menu" id="profile_dropdown">
+            <a href="profile.html" class="dropdown_box">Profile</a>
+            <a href="my_creations.html" class="dropdown_box">My Creations</a>
             <a href="sign_in.html" class="dropdown_box">Sign In</a>
             <a href="sign_up.html" class="dropdown_box">Sign Up</a>
-            <button class="dropdown_box" disabled>Log Out</button>
-            <!-- disabled for now -->
+            <button>Sign Out</button>
           </div>
         </div>
       </nav>
 
-      <button id="filter_button">
-        <img id="filter_icon" src="filter-solid.svg" />
-        <span>Filters</span>
-      </button>
+      <div id="search_container">
+        <form id="search_form">
+          <label for="search">
+            <input type="search" id="search" placeholder="Search recipes..." />
+          </label>
+          <button type="submit" id="search_button">Search</button>
+        </form>
+      </div>
 
       <div id="box_container">
         <div class="box">

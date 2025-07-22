@@ -24,4 +24,5 @@ signUpForm.addEventListener("submit", function (e) {
   localStorage.setItem("user", JSON.stringify(user));
 
   console.log("User Registered!");
+  window.location.href = "sign_in.html"; // redirect to sign-in page
 });
