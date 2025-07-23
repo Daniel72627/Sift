@@ -10,6 +10,7 @@ body {
   height: 100vh;
   margin: 0px;
   text-align: center;
+  overflow: hidden;
 }
 
 a {
@@ -93,7 +94,8 @@ a {
   border: 2px solid #d6a374;
   width: 330px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin-top: 100px;
+  margin-top: 0px;
+  height: 685px;
 }
 
 #search_container {
@@ -328,4 +330,9 @@ a {
 #spacing {
   width: 0px;
   height: 50px;
+}
+
+#food_container {
+  overflow-y: scroll;
+  height: 100vh;
 }
