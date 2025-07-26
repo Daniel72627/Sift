@@ -28,6 +28,7 @@ document.addEventListener("click", function () {
 window.addEventListener("DOMContentLoaded", () => {
   const path = window.location.pathname;
   const container = document.getElementById("container");
+  const food_container = document.getElementById("food_container");
 
   if (path.includes("sign_up.html") || path.includes("sign_in.html")) {
     container.style.height = "auto";
@@ -166,11 +167,6 @@ if (window.location.pathname.includes("food.html")) {
 
           li.innerHTML = `
             <span class="food_ingredient_amount">${measure.trim()}</span>
-            <select class="unit-select" name="unit">
-              <option value="cups">Cups</option>
-              <option value="grams">Grams</option>
-              <option value="ounces">Ounces</option>
-            </select>
             <span class="food_ingredient">${ingredient.trim()}</span>
           `;
 

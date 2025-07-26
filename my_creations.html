@@ -3,7 +3,154 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Creations</title>
+    <title>Sift</title>
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body>
+    <div id="container">
+      <nav id="top_nav">
+        <div class="dropdown">
+          <button id="menu_button">
+            <img id="menu_icon" src="bars-solid.svg" alt="Menu" />
+          </button>
+          <div class="dropdown_menu" id="menu_dropdown">
+            <a href="index.html" class="dropdown_box">Home</a>
+            <a href="my_creations.html" class="dropdown_box">My Creations</a>
+            <a href="settings.html" class="dropdown_box">Settings</a>
+          </div>
+        </div>
+
+        <h1>Sift</h1>
+
+        <div class="dropdown">
+          <button id="profile_button">
+            <img
+              id="profile_icon"
+              src="circle-user-regular.svg"
+              alt="Profile"
+            />
+          </button>
+          <div class="dropdown_menu" id="profile_dropdown">
+            <a href="profile.html" class="dropdown_box">Profile</a>
+            <a href="my_creations.html" class="dropdown_box">My Creations</a>
+            <a href="sign_in.html" class="dropdown_box">Sign In</a>
+            <a href="sign_up.html" class="dropdown_box">Sign Up</a>
+            <button>Sign Out</button>
+          </div>
+        </div>
+      </nav>
+
+      <div id="search_container">
+        <form id="search_form">
+          <label for="search">
+            <input type="search" id="search" placeholder="Search recipes..." />
+          </label>
+          <button type="submit" id="search_button">Search</button>
+        </form>
+      </div>
+
+      <p id="my_creations_header">
+        <span id="my_creations_text">My Creations</span
+        ><button id="my_creations_button">
+          <img id="plus_icon" src="plus-solid-full.svg" alt="" />
+        </button>
+      </p>
+
+      <hr class="line" />
+
+      <div id="box_container">
+        <div class="box">
+          <img class="food_image" src="food_image_01.jpg" />
+          <p class="food_name">Chocolate Chip Cookies</p>
+          <p class="food_time">2 hrs</p>
+          <p class="food_description">
+            Golden on the outside, soft and gooey on the inside—these classic
+            chocolate chip cookies are loaded with melty chocolate chunks and
+            just the right touch of brown sugar for a rich, comforting bite.
+            Perfect with a glass of milk or straight from the baking sheet.
+          </p>
+          <p class="food_about">
+            By: <a href="#">Daniel</a> Uploaded: 07/28/25
+          </p>
+        </div>
+        <div class="box">
+          <img class="food_image" src="food_image_01.jpg" />
+          <p class="food_name">Chocolate Chip Cookies</p>
+          <p class="food_time">2 hrs</p>
+          <p class="food_description">
+            Golden on the outside, soft and gooey on the inside—these classic
+            chocolate chip cookies are loaded with melty chocolate chunks and
+            just the right touch of brown sugar for a rich, comforting bite.
+            Perfect with a glass of milk or straight from the baking sheet.
+          </p>
+          <p class="food_about">
+            By: <a href="#">Daniel</a> Uploaded: 07/28/25
+          </p>
+        </div>
+        <div class="box">
+          <img class="food_image" src="food_image_01.jpg" />
+          <p class="food_name">Chocolate Chip Cookies</p>
+          <p class="food_time">2 hrs</p>
+          <p class="food_description">
+            Golden on the outside, soft and gooey on the inside—these classic
+            chocolate chip cookies are loaded with melty chocolate chunks and
+            just the right touch of brown sugar for a rich, comforting bite.
+            Perfect with a glass of milk or straight from the baking sheet.
+          </p>
+          <p class="food_about">
+            By: <a href="#">Daniel</a> Uploaded: 07/28/25
+          </p>
+        </div>
+        <div class="box">
+          <img class="food_image" src="food_image_01.jpg" />
+          <p class="food_name">Chocolate Chip Cookies</p>
+          <p class="food_time">2 hrs</p>
+          <p class="food_description">
+            Golden on the outside, soft and gooey on the inside—these classic
+            chocolate chip cookies are loaded with melty chocolate chunks and
+            just the right touch of brown sugar for a rich, comforting bite.
+            Perfect with a glass of milk or straight from the baking sheet.
+          </p>
+          <p class="food_about">
+            By: <a href="#">Daniel</a> Uploaded: 07/28/25
+          </p>
+        </div>
+        <div class="box">
+          <img class="food_image" src="food_image_01.jpg" />
+          <p class="food_name">Chocolate Chip Cookies</p>
+          <p class="food_time">2 hrs</p>
+          <p class="food_description">
+            Golden on the outside, soft and gooey on the inside—these classic
+            chocolate chip cookies are loaded with melty chocolate chunks and
+            just the right touch of brown sugar for a rich, comforting bite.
+            Perfect with a glass of milk or straight from the baking sheet.
+          </p>
+          <p class="food_about">
+            By: <a href="#">Daniel</a> Uploaded: 07/28/25
+          </p>
+        </div>
+        <div class="box">
+          <img class="food_image" src="food_image_01.jpg" />
+          <p class="food_name">Chocolate Chip Cookies</p>
+          <p class="food_time">2 hrs</p>
+          <p class="food_description">
+            Golden on the outside, soft and gooey on the inside—these classic
+            chocolate chip cookies are loaded with melty chocolate chunks and
+            just the right touch of brown sugar for a rich, comforting bite.
+            Perfect with a glass of milk or straight from the baking sheet.
+          </p>
+          <p class="food_about">
+            By: <a href="#">Daniel</a> Uploaded: 07/28/25
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
